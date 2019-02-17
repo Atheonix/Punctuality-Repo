@@ -1,8 +1,6 @@
 package com.example.home.punctualitymaster;
 
 import android.app.Activity;
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,8 +15,8 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class list_view_for_options extends Fragment {
-    private list_view_for_options.OnItemSelectedListener listener;
+public class OptionList extends Fragment {
+    private OptionList.OnItemSelectedListener listener;
     List<String> optionListing;
     List<String> optionDetails;
 
@@ -53,10 +51,10 @@ public class list_view_for_options extends Fragment {
     public void onAttach(Activity activity) {
         super.onAttach(activity);
 
-        if(activity instanceof list_view_for_options.OnItemSelectedListener){
-            listener = (list_view_for_options.OnItemSelectedListener) activity;}
+        if(activity instanceof OptionList.OnItemSelectedListener){
+            listener = (OptionList.OnItemSelectedListener) activity;}
         else {
-            throw new ClassCastException(activity.toString() + " must implement " + " list_view_for_options.OnItemSelectedListener");
+            throw new ClassCastException(activity.toString() + " must implement " + " OptionList.OnItemSelectedListener");
         }
     }
 
