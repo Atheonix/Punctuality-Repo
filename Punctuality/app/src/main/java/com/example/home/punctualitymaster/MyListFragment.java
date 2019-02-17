@@ -1,5 +1,5 @@
 package com.example.home.punctualitymaster;
-
+/*
 import android.app.Activity;
 import android.os.Bundle;
 import android.app.Fragment;
@@ -30,7 +30,7 @@ public class MyListFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.option_item, container, false);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.options_view);
+        ListView listView = (ListView) rootView.findViewById(R.id.options);
         listView.setAdapter(mOptionAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -62,3 +62,4 @@ public class MyListFragment extends Fragment {
         listener.onOptionItemSelected(info);
     }
 }
+*/

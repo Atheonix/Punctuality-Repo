@@ -34,7 +34,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="foregroundImage" value="C:\Users\parker\Punctuality-Repo\logo2.png" />
-                                      <entry key="foregroundLayerName" value="Punc_logo_foreground" />
+                                      <entry key="foregroundLayerName" value="punc_logo_foreground" />
                                     </map>
                                   </option>
                                 </PersistentState>
