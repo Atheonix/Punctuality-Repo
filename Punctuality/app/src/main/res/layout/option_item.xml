@@ -2,6 +2,8 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/option_tv"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:textColor="@color/Coral_red"
+    android:textSize="35sp">
 
 </TextView>

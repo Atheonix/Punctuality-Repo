@@ -1,8 +1,6 @@
 package com.example.home.punctualitymaster;
 
 import android.app.Activity;
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -28,9 +26,9 @@ public class MyListFragment extends Fragment {
         optionListing = new ArrayList<String>(Arrays.asList(DummyData.options));
         optionDetails = new ArrayList<String>(Arrays.asList(DummyData.option_data));
 
-        final ArrayAdapter<String> mOptionAdapter = new ArrayAdapter<String>(getActivity(), R.layout.optioon_item, R.id.option_tv, optionListing);
+        final ArrayAdapter<String> mOptionAdapter = new ArrayAdapter<String>(getActivity(), R.layout.option_item, R.id.option_tv, optionListing);
 
-        View rootView = inflater.inflate(R.layout.optioon_item, container, false);
+        View rootView = inflater.inflate(R.layout.option_item, container, false);
 
         ListView listView = (ListView) rootView.findViewById(R.id.options_view);
         listView.setAdapter(mOptionAdapter);
