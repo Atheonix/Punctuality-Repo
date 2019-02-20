@@ -5,7 +5,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class Home extends Activity {
+public class Home extends Activity{
 
 
     @Override
@@ -15,10 +15,11 @@ public class Home extends Activity {
 
 
 
-        TextView tx = (TextView)findViewById(R.id.title);
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "font/");
-        tx.setTypeface(custom_font);
+        /*TextView tx = (TextView)findViewById(R.id.title);
+        Typeface custom_font = Typeface.createFromAsset(getAssets(), "res/font/neuropol.ttf");
+        tx.setTypeface(custom_font);*/
     }
+
 
 
    // @Override

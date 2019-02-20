@@ -19,9 +19,9 @@ public class Title extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.title);
 
-        TextView tx = (TextView)findViewById(R.id.title);
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "font/");
-        tx.setTypeface(custom_font);
+        /*TextView tx = (TextView)findViewById(R.id.title);
+        Typeface custom_font = Typeface.createFromAsset(getAssets(), "res/font/elixia.ttf");
+        tx.setTypeface(custom_font);*/
 
         timer = new Timer();
         timer.schedule(new TimerTask() {
@@ -31,7 +31,7 @@ public class Title extends Activity {
                 startActivity(intent);
                 finish();
             }
-        }, 5000);
+        }, 3000);
 
     }
 }
