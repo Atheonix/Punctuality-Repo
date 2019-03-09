@@ -1,8 +1,11 @@
 package com.example.home.punctualitymaster;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class Home extends Activity{
@@ -12,6 +15,14 @@ public class Home extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
+
+        Button btnl = new (Button) findViewById(R.id.button);
+        btnl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, ))
+            }
+        });
 
 
 
@@ -26,4 +37,7 @@ public class Home extends Activity{
     //public void onOptionItemSelected(String link){
 
     //}
+
+
 }
+
